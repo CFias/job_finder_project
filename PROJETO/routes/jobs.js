@@ -18,8 +18,8 @@ router.post('/add', (req, res) => {
     // insert
     Job.create({
         title,
-        description,
         salary,
+        description,
         company,
         email,
         new_job
